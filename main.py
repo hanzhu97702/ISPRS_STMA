@@ -15,7 +15,7 @@ import random
 import time
 import os
 
-parser = argparse.ArgumentParser(description='Multitemporal Crop Classification')
+parser = argparse.ArgumentParser(description='Multitemporal Crop Mapping')
 parser.add_argument('--fix_random', action='store_true', help='fix randomness')
 parser.add_argument('--season_flag', action='store_true', help='whether consider temporal effect')
 parser.add_argument('--save_model_flag', action='store_true', help='whether save model train parameters')
@@ -136,7 +136,7 @@ def main():
         cudnn.benchmark = True
 
     # create dataset and model
-    train_loader, valid_loader, test_loader, num_classes, band, ColumnOver, RowOver, row, col = dataset.getdata(args.dataset, args.patch, args.batch_size, args.season_flag)
+    train_loader, valid_loader, test_loader, num_classes, band, ColumnOver, RowOver, row, col = dataset.getdata(args.dataset, args.patch, args.batch_size)
     # create model
     print("Create model")
     model = STMA(
