@@ -40,8 +40,6 @@ def read_data(dataset, mode):
         num_classes = 17 # 0~16
         row, col, band = 3731, 5095, 41
         data_file = './data/train_list.npz'
-        train_list = np.array([0,1,2,3,4,5,6,7])
-        test_list = np.array([0,1,2,3,4,5,6,7])
         flag = 1
     elif dataset == 'Germany_S2':
         num_classes = 17 # 0~16
