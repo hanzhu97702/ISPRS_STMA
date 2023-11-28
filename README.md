@@ -18,14 +18,18 @@ Citation
 
 Zhu Han, Ce Zhang, Lianru Gao, Zhiqiang Zeng, Bing Zhang, Peter M. Atkinson. Spatio-temporal multi-level attention crop mapping method using time-series SAR imagery, ISPRS Journal of Photogrammetry and Remote Sensing, vol. 206, pp. 293-310, 2023, doi: 10.1016/j.isprsjprs.2023.11.01.
 
-@article{HAN2023293,
-title = {Spatio-temporal multi-level attention crop mapping method using time-series SAR imagery},
-author = {Zhu Han and Ce Zhang and Lianru Gao and Zhiqiang Zeng and Bing Zhang and Peter M. Atkinson},
-journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-volume = {206},
-pages = {293-310},
-year = {2023},
-issn = {0924-2716},
-doi = {https://doi.org/10.1016/j.isprsjprs.2023.11.016},
-url = {https://www.sciencedirect.com/science/article/pii/S0924271623003210},
-}
+  @article{HAN2023293,
+  title = {Spatio-temporal multi-level attention crop mapping method using time-series SAR imagery},
+  author = {Zhu Han and Ce Zhang and Lianru Gao and Zhiqiang Zeng and Bing Zhang and Peter M. Atkinson},
+  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume = {206},
+  pages = {293-310},
+  year = {2023},
+  issn = {0924-2716},
+  doi = {https://doi.org/10.1016/j.isprsjprs.2023.11.016},
+  url = {https://www.sciencedirect.com/science/article/pii/S0924271623003210},
+  }
+  
+Contact Information
+---------------------
+Zhu Han: hanzhu19@mails.ucas.ac.cn
