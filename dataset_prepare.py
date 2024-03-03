@@ -1,7 +1,6 @@
 import torch
 import h5py
 import numpy as np
-import scipy.io as sio
 
 def normalization(data):
     _range = np.max(data) - np.min(data)
