@@ -37,12 +37,12 @@ def normalization(data):
 
 def read_data(dataset, mode):
     if dataset == 'Germany':
-        num_classes = 17 # 0~16
+        num_classes = 16 # 0~15
         row, col, band = 3731, 5095, 41
         data_file = './data/train_list.npz'
         flag = 1
     elif dataset == 'Germany_S2':
-        num_classes = 17 # 0~16
+        num_classes = 16 # 0~15
         row, col, band = 3731, 5095, 41
         data_file = './data/S2/train_list_s2_for_train.npz'
         flag = 2
