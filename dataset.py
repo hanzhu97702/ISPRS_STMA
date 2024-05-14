@@ -49,7 +49,7 @@ def read_data(dataset, mode):
     else:
         raise ValueError("Unknown dataset")
 
-    # flag=1 represents test data for original area in 2018~2019;
+    # flag=1 represents test data for original area in 2017~2018;
     # flag=2 represents test data for S2 study area in 2020~2021;
 
     print("Current flag value is {}".format(flag))
