@@ -1,6 +1,7 @@
 import torch
 import h5py
 import numpy as np
+from scipy.io import loadmat
 
 def normalization(data):
     _range = np.max(data) - np.min(data)
@@ -24,10 +25,9 @@ def read_data(dataset):
         # print(f.keys())
     vv = np.transpose(f['VV'])
 
-    with h5py.File(file_name3, 'r') as f:
-        f = h5py.File(file_name3, 'r')
-        # print(f.keys())
-    label = np.transpose(f['label'])
+    label_data = loadmat(file_name3)
+    label = label_data['label'] ## for 2017~2018
+    # label = label_data['label_s2'] ## for 2020~2021
 
     ## normalize data
     vh1 = normalization(vh)
